@@ -45,7 +45,7 @@ const Hero = () => {
             <a
               href="/harsh_final.pdf"
               download
-              className="px-6 py-3 border border-white rounded-lg hover:bg-white hover:text-black transition"
+              className="px-6 py-3 border border-white rounded-lg  hover:bg-white hover:text-black transition"
             >
               Download Resume
             </a>
@@ -54,12 +54,14 @@ const Hero = () => {
 
         {/* Image */}
         <div className="flex justify-center">
-          <img
-            src={profile}
-            alt="profile"
-            className="w-72 h-72 rounded-2xl object-cover shadow-2xl border border-white/20"
-          />
-        </div>
+  <div className="relative w-72 h-72 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-pink-200 via-purple-200 to-indigo-200 p-[3px] shadow-xl">
+    <img
+      src={profile}
+      alt="profile"
+      className="w-full h-full rounded-full object-cover bg-white"
+    />
+  </div>
+</div>
       </div>
     </section>
   );

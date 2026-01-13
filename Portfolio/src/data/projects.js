@@ -4,8 +4,8 @@ export const projects = [
     description:
       "Full-stack video platform with authentication, subscriptions, and video streaming features.",
     tech: ["React", "Node.js", "MongoDB", "JWT"],
-    live: "https://your-live-link",
-    github: "https://github.com/yourusername/youtube-clone",
+    live: "https://backend-ytb-ef65-8a21gikzw-kumar-harshs-projects-818f320c.vercel.app/",
+    github: "https://github.com/kumarharsh7070/Backend_YTB.git",
   },
   {
     title: "Task Manager API",
@@ -13,7 +13,7 @@ export const projects = [
       "RESTful API to manage tasks with authentication and role-based access.",
     tech: ["Node.js", "Express", "MongoDB"],
     live: "",
-    github: "https://github.com/yourusername/task-manager-api",
+    github: "https://github.com/kumarharsh7070/Nodejs-projects-collection.git",
   },
   {
     title: "Store API",
@@ -21,7 +21,7 @@ export const projects = [
       "Scalable store backend with filtering, sorting, pagination, and search.",
     tech: ["Node.js", "Express", "MongoDB"],
     live: "",
-    github: "https://github.com/yourusername/store-api",
+    github: "https://github.com/kumarharsh7070/Nodejs-projects-collection.git",
   },
   {
     title: "Flutter Firebase App",
@@ -29,6 +29,6 @@ export const projects = [
       "Mobile app with Firebase backend for form submissions and notifications.",
     tech: ["Flutter", "Dart", "Firebase"],
     live: "",
-    github: "https://github.com/yourusername/flutter-firebase-app",
+    github: "https://github.com/kumarharsh7070/personal_portfolio.git",
   },
 ];
